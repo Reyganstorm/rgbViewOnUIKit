@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        rgbView.layer.cornerRadius = 20
+        rgbView.layer.cornerRadius = 25
         
         redLabel.text =
         String(format: "%.0f", redSlider.value)
